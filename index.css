@@ -1,0 +1,73 @@
+body{
+  background: hsl(185, 75%, 39%);
+  width: 100%;
+  background-size: 100%;
+  position: fixed;
+  color:  hsl(229, 23%, 23%);
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+.svg-one{
+  position: relative;
+  top: -410px;
+  left: -3%;
+}
+.svg-two{
+  position: relative;
+  top: -500px;
+  left: 50%;
+}
+.header{
+    background-image: url('image/bg-pattern-card.svg');
+  
+  border-radius: 25px 25px 0px 0px;
+    height: 150px;
+
+    
+    
+}
+.container{
+ border: none;
+  width: 20%;
+  position: relative;
+  top: -1650px;
+  left: 40%;
+  height: 400px;
+  background-color: white;
+  border-radius: 25px;
+  text-align: center;
+  
+}
+img{
+  border: 3px solid white;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  /* background: url('image/image-victor.jpg'); */
+  position: relative;
+  top: -30px;
+  left: 5px;
+
+}
+
+
+
+/*boxes*/
+.box-cont{
+  position: relative;
+  top: -30px;
+}
+.flex{
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  bottom: -30px;
+}
+@media (max-width: 750px){
+  .container{
+    width: 80%;
+    left: 10%;
+    bottom: 800px;
+  }
+}
+
